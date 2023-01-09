@@ -1,0 +1,92 @@
+.gallery {
+  position: relative;
+  background: #0c1417;
+  padding-bottom: 100px;
+  &__bg {
+    bottom: -35px;
+    position: absolute;
+    z-index: 1;
+  }
+}
+
+.carousel-wrapper {
+  position: relative;
+}
+
+.owl-carousel-one {
+  min-height: 400px;
+  position: relative;
+  max-width: 100%;
+  z-index: 5;
+  &__item {
+    filter: drop-shadow(0px 4px 50px rgba(0, 0, 0, 0.5));
+  }
+}
+
+.nav-btn-prev {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -50px;
+  width: 40px;
+  height: 40px;
+  z-index: 10;
+}
+
+.nav-svg-prev {
+  width: 40px;
+  height: 40px;
+  fill: white;
+}
+.nav-btn-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -50px;
+  width: 40px;
+  height: 40px;
+  z-index: 10;
+}
+
+.nav-svg-next {
+  width: 40px;
+  height: 40px;
+  fill: #F7931E;
+}
+
+.owl-carousel-two {
+  position: relative;
+  padding-top: 60px;
+  z-index: 5;
+}
+
+.nav-btn-prev-two {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -50px;
+  width: 40px;
+  height: 40px;
+  z-index: 10;
+}
+
+.nav-svg-prev-two {
+  width: 40px;
+  height: 40px;
+  fill: white;
+}
+.nav-btn-next-two {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -50px;
+  width: 40px;
+  height: 40px;
+  z-index: 10;
+}
+
+.nav-svg-next-two {
+  width: 40px;
+  height: 40px;
+  fill: #F7931E;
+}

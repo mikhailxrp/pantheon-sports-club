@@ -1,0 +1,277 @@
+@media (max-width: 1420px) {
+  .gallery-one {
+    &__btn-nav {
+      display: none !important;
+    }
+  }
+  .nav-btn-next {
+    display: none;
+  }
+  .nav-btn-prev {
+    display: none;
+  }
+  .nav-btn-next-two {
+    display: none;
+  }
+  .nav-btn-prev-two {
+    display: none;
+  }
+}
+@media (max-width: 1320px) {
+  .consultation {
+    &__wrapper-icons {
+      flex-wrap: wrap;
+    }
+  }
+}
+
+@media (max-width: 1231px) {
+  .modal-success {
+    &__title {
+      text-align: left;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .header {
+    &__content {
+      margin-top: 180px;
+    }
+    &__bottom {
+      margin-top: 280px;
+    }
+  }
+  .menu {
+    display: none;
+  }
+  .menu-tablet {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  .header-elem-top-bg {
+    top: -50px;
+  }
+  .consultation {
+    &__wrapper {
+      flex-direction: column;
+      row-gap: 60px;
+    }
+    &__inner-item {
+      &_right {
+        padding-top: 0;
+      }
+    }
+    &__inner-content {
+      max-width: 100%;
+      order: -1;
+      p {
+        text-align: center;
+      }
+    }
+  }
+  .title {
+    &_permanent {
+      text-align: center;
+    }
+  }
+  .btn {
+    &_border {
+      margin: auto;
+    }
+  }
+  .table-workout-bg {
+    display: none;
+  }
+  .table-by-time-bg {
+    display: none;
+  }
+}
+
+@media (max-width: 1100px){
+  .footer{
+    &__inner-menu{
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 1019px) {
+  .modal-success {
+    &__subtitle {
+      text-align: left;
+    }
+    &__contact {
+      flex-direction: column;
+      align-items: flex-start;
+      row-gap: 20px;
+    }
+    &__text {
+      text-align: left;
+    }
+    &__social {
+      margin-right: auto;
+      margin-left: 0;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .header-elem-top-bg {
+    right: 200px;
+  }
+  .visible{
+    display: none;
+  }
+  .hidden{
+    display: block;
+  }
+}
+
+@media (max-width: 790px) {
+  .header {
+    &__bottom {
+      margin-top: 230px;
+    }
+  }
+  
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 13px;
+  }
+  .consultation {
+    &__item-icon {
+      max-width: 223px;
+      flex-direction: column;
+      row-gap: 15px;
+      p {
+        text-align: center;
+      }
+    }
+    &__wrapper-icons {
+      margin-top: 80px;
+    }
+  }
+  .gallery {
+    padding-bottom: 60px;
+  }
+  .questions{
+    &__content{
+      margin: auto;
+    }
+  }
+  .contact{
+    &__content{
+      left: 10px;
+    }
+  }
+}
+
+@media (max-width: 675px) {
+  .consultation {
+    &__inner-image {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  .owl-coaches {
+    padding-left: 70px;
+  }
+  .footer{
+    flex-direction: column;
+    row-gap: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .header {
+    &__phone {
+      display: none;
+    }
+  }
+  .menu-tablet {
+    display: none;
+  }
+  .mobile-nav-btn {
+    display: block;
+  }
+  .header-elem-left-bg {
+    left: -75px;
+  }
+  .modal {
+    max-width: 350px;
+    &__close {
+      top: 3px;
+      right: 3px;
+    }
+  }
+  .modal-success {
+    width: 300px;
+    padding: 0 20px 20px 15px;
+    &__logo {
+      width: 130px;
+    }
+  }
+  .title {
+    &_coaches {
+      top: 50px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+  .owl-coaches {
+    padding-left: 0px;
+  }
+}
+
+@media (max-width: 520px) {
+  .header-elem-top-bg {
+    right: 100px;
+  }
+}
+
+@media (max-width: 420px) {
+  .header-elem-top-bg {
+    display: none;
+  }
+  .header-elem-left-bg {
+    left: -100px;
+  }
+  .footer{
+    padding-top: 80px;
+  }
+
+  .modal {
+    max-width: 300px;
+    &__close {
+      top: 3px;
+      right: 3px;
+    }
+  }
+  .contact{
+    &__content{
+      transform: translateY(0);
+      right: 0;
+      left: 0;
+      max-width: 100%;
+    }
+  }
+}
+
+@media (max-width: 420px) {
+  .gallery-two {
+    &__item {
+      max-width: 300px;
+    }
+  }
+}
+@media (max-width: 360px) {
+  .gallery-two {
+    &__item {
+      max-width: 280px;
+    }
+  }
+}

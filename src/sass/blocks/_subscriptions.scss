@@ -1,0 +1,220 @@
+.subscriptions {
+  position: relative;
+  padding-top: 100px;
+  &__wrapper {
+    margin-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    row-gap: 20px;
+  }
+}
+
+.table-wrapper {
+  overflow: auto;
+  margin-bottom: 50px;
+}
+
+.table-wrapper::-webkit-scrollbar {
+  height: 4px;
+  background-color: #0c1417;
+}
+.table-wrapper::-webkit-scrollbar-thumb {
+  background-color: #f7931e;
+}
+
+.table-workout {
+  position: relative;
+  width: 1095px;
+  margin: auto;
+  z-index: 10;
+  &__top {
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  border-spacing: 0;
+  &__color {
+    color: $main-color;
+  }
+  &__bold-text {
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #0c1417;
+    text-align: left !important;
+  }
+  &__bold-price {
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #0c1417;
+    text-align: center;
+  }
+  td {
+    padding: 20px 10px 20px 10px;
+    text-align: center;
+    width: 150px;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #0c1417;
+  }
+}
+
+tr.table-workout {
+  &__top {
+    td {
+      padding: 15px 0 15px 0;
+      border-bottom: 1px solid rgba(12, 20, 23, 0.5);
+      font-weight: 700;
+      font-size: 1.125rem;
+      line-height: 1.5;
+      color: #0c1417;
+    }
+    th {
+      border-bottom: 1px solid rgba(12, 20, 23, 0.5);
+    }
+  }
+}
+
+td.table-workout {
+  &__color {
+    text-align: left;
+    font-weight: 700;
+  }
+}
+
+.table-workout-bg {
+  position: absolute;
+  top: 330px;
+  right: 0;
+  z-index: 5;
+}
+
+// table-by-time
+.table-by-time {
+  position: relative;
+  width: 1095px;
+  margin: auto;
+  z-index: 10;
+  &__top {
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  border-spacing: 0;
+  &__color {
+    color: $main-color;
+  }
+  &__bold-text {
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #0c1417;
+    text-align: left !important;
+  }
+  &__bold-price {
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #0c1417;
+    text-align: center;
+  }
+  td {
+    padding: 20px 10px 20px 10px;
+    text-align: center;
+    width: 150px;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #0c1417;
+  }
+}
+
+tr.table-by-time {
+  &__top {
+    td {
+      padding: 15px 0 15px 0;
+      border-bottom: 1px solid rgba(12, 20, 23, 0.5);
+      font-weight: 700;
+      font-size: 1.125rem;
+      line-height: 1.5;
+      color: #0c1417;
+    }
+    th {
+      border-bottom: 1px solid rgba(12, 20, 23, 0.5);
+    }
+  }
+}
+
+td.table-by-time {
+  &__color {
+    text-align: left;
+    font-weight: 700;
+  }
+}
+
+.table-by-time-bg {
+  position: absolute;
+  left: 0;
+  top: 760px;
+  z-index: 5;
+}
+
+.training-item {
+  padding: 30px 20px 20px 20px;
+  max-width: 308px;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.08);
+  &:hover .training-item__title {
+    color: $main-color;
+  }
+  &:hover .btn_border-orange {
+    background-color: $main-color;
+    color: #fff;
+  }
+  &__title {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.2;
+    text-align: center;
+    color: #0c1417;
+  }
+  &__time {
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 0.937rem;
+    line-height: 1.5;
+    text-align: center;
+    color: rgba(12, 20, 23, 0.5);
+  }
+  &__img {
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+    width: 34px;
+    height: 34px;
+    fill: $main-color;
+  }
+  &__price {
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #0c1417;
+  }
+  &__text {
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 0.937rem;
+    line-height: 1.5;
+    text-align: center;
+    color: rgba(12, 20, 23, 0.5);
+  }
+}

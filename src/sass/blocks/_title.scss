@@ -1,0 +1,36 @@
+.title {
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 1.2;
+  &_big {
+    font-size: 4rem;
+    text-align: center;
+  }
+  &_permanent {
+    font-size: 1.875rem;
+  }
+  &_modal {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  &_gallery {
+    margin-bottom: 50px;
+    font-size: 1.875rem;
+    text-align: center;
+  }
+  &_black {
+    margin-bottom: 50px;
+    font-size: 1.875rem;
+    text-align: center;
+    color: #0c1417;
+  }
+  &_coaches {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: #ffffff;
+  }
+}

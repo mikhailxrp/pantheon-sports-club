@@ -1,0 +1,45 @@
+@import "libs/baseReboot.scss";
+@import "base/variables";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+@import "libs/owl.carousel.css";
+@import "libs/owl.theme.default.css";
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #0c1417;
+  min-width: 320px;
+}
+
+.container {
+  max-width: var(--container-width);
+  padding: 0 var(--container-padding);
+  margin: auto;
+}
+
+.icon {
+  display: block;
+  max-width: 64px;
+  height: 64px;
+  fill: $main-color;
+}
+
+@import "blocks/header";
+@import "blocks/menu";
+@import "blocks/title";
+@import "blocks/button";
+@import "blocks/consultation";
+@import "blocks/modal";
+@import "blocks/gallery";
+@import "blocks/subscriptions";
+@import "blocks/coaches";
+@import "blocks/questions";
+@import "blocks/contact";
+@import "blocks/footer";
+
+@import "blocks/media";
